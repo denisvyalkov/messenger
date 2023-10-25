@@ -1,3 +1,14 @@
-import { Route } from '@angular/router';
+/* eslint-disable @nrwl/nx/enforce-module-boundaries */
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
-export const appRoutes: Route[] = [];
+const routes: Routes = [
+
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule],
+  providers: [],
+})
+export class AppRoutingModule {}
