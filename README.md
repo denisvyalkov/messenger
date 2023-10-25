@@ -1,0 +1,1 @@
+To start the development server run `npm run messenger_serve`. Open your browser and navigate to http://localhost:8080/.
